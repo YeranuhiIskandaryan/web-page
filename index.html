@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Արման <br> և Անի</h1>
+        <h3>Բացի՛ր հրավերը</h3>
+
+        <div class="mainBottom">
+            <div class="circle" id="circle"> > </div>
+            <span>...............................</span>
+            <div class="circle" id="circle2"></div>
+        </div>
+    </div>
+
+    <div class="secOne" id="secOne">
+
+        <div class="sectionOne">
+            <div class="sectionOneTop">
+                <div class="secOneTop">
+                    <p>25 <br> 03 <br> 24</p>
+                </div>
+                <div class="secOneTwo">
+                    <p>Հարսանիքին մնացել է</p>
+                    <p id="countdown"></p>
+                </div>
+            </div>
+            <h3>Արման և Անի</h3>
+        </div>
+        <div class="sectionTwo">
+            <div class="sectionTwoCenter">
+                <h3>Հարգելի՛ հյուրեր</h3>
+                <p>Մեր կյանքում գեղեցիկ իրադարձություն է սպասվում։
+                    Մենք ընտանիք ենք կազմում և հրավիրում ենք Ձեզ կիսելու մեր կյանքի այդ լուսավոր օրը:
+                </p>
+            </div>
+            <img src="./images/calc.png" alt="" class="calendar">
+        </div>
+        <div class="sectionThree">
+            <div class="imageTwo">
+                <img src="./images/two.png" alt="">
+            </div>
+            <h1 class="headOne">Տեղակայում</h1>
+            <div class="all">
+                <i class="fa fa-map-marker" aria-hidden="true" id="icon"></i>
+                <p>Պսակադրության արարողությունը կանցկացվի <b>Զորավար Սուրբ Աստվածածին </b> եկեղեցում <br> Հասցե՛
+                    ք․Երևան, Թումանյան փող․</p>
+                <img src="./images/church.png" alt="">
+                <a target="_blank"
+                    href="https://www.google.com/maps/place/Saint+Mother+of+God+the+Mighty+Church/@40.1861212,44.5070586,17z/data=!3m1!4b1!4m6!3m5!1s0x406abd1d11bff0fd:0x9a1da55cbd1e4fdf!8m2!3d40.1861171!4d44.5096335!16s%2Fm%2F06w91hd?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"
+                    class="btn">Քարտեզ</a>
+            </div>
+            <div class="all">
+                <img src="./images/glasses.png" alt="" id="allGlass">
+                <p>Տոնական խնջույքը կանցկացվի <b> <br>
+                        << Prime Hall>>
+                    </b> ռեստորանային համալիրում <br> Հասցե՛
+                    ք․Երևան,Եղվարդի խճուղի, 3-րդ կիրճ, 1 շինություն</p>
+                <img src="./images/two.jpg" alt="">
+                <a target="_blank"
+                    href="https://www.google.com/maps/place/%D5%93%D6%80%D5%A1%D5%B5%D5%B4+%D5%80%D5%B8%D5%AC/@40.2232681,44.5066292,17z/data=!3m1!4b1!4m6!3m5!1s0x406aa2a8568224c3:0x6686763ccdd74863!8m2!3d40.223264!4d44.5092041!16s%2Fg%2F11c2pp2jdy?entry=ttu&g_ep=EgoyMDI0MTIwMS4xIKXMDSoASAFQAw%3D%3D"
+                    class="btn">Քարտեզ</a>
+            </div>
+        </div>
+        <div class="sectionFour">
+            <h1 class="headOne">Օրվա ծրագիր</h1>
+            <hr>
+            <b style="font-size: 28px;">13:40</b>
+            <p>Պսակադրության <br> արարողություն</p>
+            <hr>
+            <b style="font-size: 28px;">17:30</b>
+            <p>Հյուրերի դիմավորում <br> ռեստորանի բակում</p>
+            <hr>
+            <b style="font-size: 28px;">18:00</b>
+            <p>Տոնական խնջույք</p>
+            <hr>
+            <b style="font-size: 28px;">21:30</b>
+            <p>Տորթի կտրման <br> արարողություն </p>
+            <hr>
+        </div>
+        <div class="sectionFife">
+            <h1 class="headOne">Հյուրի հարցաթերթիկ</h1>
+            <p>Խնդրում ենք հաստատել ձեր ներկայությունը մինչև մարտի 10-ը</p>
+            <p id="paragraph">Նշեք Ձեր և հրավիրված անձանց անուն/ազգանունը
+                <input type="text" id="input">
+            </p>
+            <div class="form">
+                <p id="parag">Կկարողանա՞ք ներկա գտնվել <br> միջոցառմանը</p>
+                <form action="#">
+                    <input type="radio" id="yes" name="same">
+                    <label for="yes">Այո, կգամ</label>
+                    <br>
+                    <input type="radio" id="no" name="same">
+                    <label for="no">Ցավոք, չեմ կարողանա</label>
+                </form>
+                <p id="parag">Ու՞մ կողմից եք հրավիրված</p>
+                <form action="#">
+                    <input type="checkbox" id="arman" name="same">
+                    <label for="arman">Արման</label>
+                    <br>
+                    <input type="checkbox" id="ani" name="same">
+                    <label for="ani">Անի</label>
+                </form>
+            </div>
+            <button class="btn" id="btn">Ուղարկել</button>
+        </div>
+        <div class="end">
+            <div class="imageTwo" id="imgDiv">
+                <img src="./images/end.jpg" alt="" id="endImg">
+            </div>
+            <h1 id="headOne" class="headOne">Սիրով և հարգանքով <br> Արման և Անի </h1>
+            <div class="footer">
+                <div style="display: flex; align-items: center;">
+                  <p>Սիրով պատրաստեց</p>
+                  <img src="./images/loggo.png" alt="" id="logo">
+                </div>
+                <div style="display: flex; gap: 15px;" class="divv">
+                  <a href="https://www.instagram.com/dream.card_studio/" target="_blank">
+                    <i class="fa fa-instagram" aria-hidden="true" style="color: white; font-size: 22px;"></i>
+                  </a>
+                </div>
+              </div>
+              
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
